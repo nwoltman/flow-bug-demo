@@ -1,0 +1,14 @@
+[ignore]
+.*/\(\.\|~\).*
+.*/__tests__/.*
+<PROJECT_ROOT>/\(node_modules\|test\)/.*
+
+[lints]
+untyped-import=error
+untyped-type-import=error
+
+[options]
+include_warnings=true
+munge_underscores=true
+suppress_comment= \\(.\\|\n\\)*\\$FlowBug
+suppress_comment= \\(.\\|\n\\)*\\$FlowIgnore

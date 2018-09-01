@@ -1,0 +1,23 @@
+{
+  "name": "flow-bug-demo",
+  "version": "0.0.1",
+  "description": "Demo repo for Flow bugs",
+  "main": "run-flow.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nwoltman/flow-bug-demo.git"
+  },
+  "author": "Nathan Woltman <nwoltman@outlook.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/nwoltman/flow-bug-demo/issues"
+  },
+  "homepage": "https://github.com/nwoltman/flow-bug-demo#readme",
+  "dependencies": {
+    "flow-bin": "~0.80.0"
+  },
+  "scripts": {
+    "test": "node run-flow.js",
+    "stop": "flow stop"
+  }
+}
