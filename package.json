@@ -14,7 +14,7 @@
   },
   "homepage": "https://github.com/nwoltman/flow-bug-demo#readme",
   "dependencies": {
-    "flow-bin": "~0.81.0"
+    "flow-bin": "~0.82.0"
   },
   "scripts": {
     "test": "node run-flow.js",
