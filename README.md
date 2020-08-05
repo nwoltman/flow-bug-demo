@@ -16,6 +16,6 @@ node run-flow.js
 
 Flow (called with Node's `spawnSync`) never exits, so the command hangs.
 
-The problem started in Flow `0.71`, so the command will work with Flow `0.70`.
+The problem started in Flow `0.71`, so the command will succeed with Flow `0.70`.
 
 **Note:** This is a Windows-only bug.
